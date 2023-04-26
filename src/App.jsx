@@ -1,4 +1,5 @@
 import './App.css'
+import './scss/global.scss'
 import { Link, Route, Routes } from 'react-router-dom'
 import Home from './views/Home'
 import Styleguide from './styleguide/Styleguide'
