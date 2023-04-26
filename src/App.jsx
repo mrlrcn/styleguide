@@ -1,7 +1,7 @@
 import './App.css'
 import { Link, Route, Routes } from 'react-router-dom'
 import Home from './views/Home'
-import Styleguide from './views/Styleguide'
+import Styleguide from './styleguide/Styleguide'
 
 function App() {
 
