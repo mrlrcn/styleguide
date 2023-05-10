@@ -1,0 +1,23 @@
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-headers;
+}
+
+h1, .h1 {
+    font-size: 2rem; //no tiene que haber numeros, todo variables
+    line-height: 1.2;
+    font-family: $font-headers;
+    margin-bottom: 1.5;
+}
+
+// Mirar como hacer mixin + mediaqueries
+// fuente grande con sus mq, mediana con sus mq, pequeña con sus mq
+// @mixin font-size($font-size: $font-medium) {
+//     font-size: $font-size;
+//     @include mq(medium) {
+//         font-size: $font-size * 1.2;
+//     }
+
+p {
+    font-family: $font-primary;
+}

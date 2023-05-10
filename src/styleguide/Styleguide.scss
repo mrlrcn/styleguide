@@ -1,6 +1,106 @@
+@import '/src/scss/variables';
+
+body {
+    background-color: $color-green-dark;
+}
+ 
+
+
+.line-divider {
+    background: #bfbfbf;
+    width: 90%;
+    height: 0.1px;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000; /* hacer variable con w98 border style*/
+}
+
 .styleguideSection {
-    background-color: pink;
-    border: 1px solid gray;
-    border-radius: 20px;
-    padding: 12px 24px;
+    background: #bfbfbf;
+    margin: 20px auto;
+    padding: 20px;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+        &__headers {
+            flex-direction: column;
+        }
+
+        &-colors {
+            
+            &__colors, &__grayscale {
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+            }
+        }
+}
+
+
+.color-palette {
+    width: 44px;
+    height: 44px;
+    margin: 12px;
+    border: 2px white solid;
+}
+
+
+
+/* Palette map  PREGUNTAR*/
+
+    // $color-palette: (
+
+    //     red: $color-red,
+    //     green: $color-green,
+    //     green-darker: $color-green-darker,
+    //     blue: $color-blue,
+    //     blue-darker: $color-blue-darker,
+    //     yellow: $color-yellow,
+
+    // // $color-white,
+    // // $color-gray,
+    // // $color-gray-darker,
+    // // $color-black
+
+    // );
+
+    // @each $color-palette, $color in $color-palette {
+
+    //     .color-palette#{$color-palette} {
+    //         background-color: $color;
+    //     }
+    // }
+
+.color1 {
+    background-color: $color-red; /* hacer un map desto */
+}
+.color2 {
+    background-color: $color-green; /* hacer un mixin desto */
+}
+.color3 {
+    background-color: $color-blue; /* hacer un mixin desto */
+}
+.color4 {
+    background-color: $color-yellow; /* hacer un mixin desto */
+}
+.colorw {
+    background-color: $color-white; /* hacer un mixin desto */
+}
+.colorg {
+    background-color: $color-gray; /* hacer un mixin desto */
+}
+.colorgd {
+    background-color: $color-gray-dark; /* hacer un mixin desto */
+}
+.colorb {
+    background-color: $color-black; /* hacer un mixin desto */
 }
