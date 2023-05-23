@@ -1,0 +1,15 @@
+@import '../../scss/variables.scss';
+
+.projectListView {
+    box-sizing: border-box;
+    border: $border;
+
+    &:hover {
+        background-color: $color-blue-dark;
+        color: $color-white;
+    }
+
+    &__title {
+        display: flex;
+    }
+}

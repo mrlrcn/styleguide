@@ -1,27 +1,49 @@
 /* Color variables */
-
+    /* Accent colors */
     $color-red: #FF0000;
     $color-green: #00FF00;
-    $color-green-dark: #017f7e;
     $color-blue: #0000FF;
-    $color-blue-dark: #000080;
     $color-yellow: #FFFF00;
-
+    /* Colors */
+    $color-green-dark: #017f7e;
+    $color-blue-dark: #000080;
+    /* Grayscale */
     $color-white: #E7E7E7;
     $color-gray: #C0C0C0;
     $color-gray-dark: #4E4E4E;
     $color-black: #1D1D1D;
 
+/* Colors map */
+    $color-palette: (
+        "color-red": #FF0000,
+        "color-green": #00FF00,
+        "color-blue": #0000FF,
+        "color-yellow": #FFFF00,
+
+        "color-green-dark": #017f7e,
+        "color-blue-dark": #000080,
+
+        "color-white": #E7E7E7,
+        "color-gray": #C0C0C0,
+        "color-gray-dark": #4E4E4E,
+        "color-black": #1D1D1D
+    );
+
 /* Typography variables */
 
     /*
+
     H1-5: font-family: 'Oswald', sans-serif;
     p: font-family: 'Roboto Mono', monospace;
     */
 
-    /* Font Families */
+    /* Font Families 
+    font-family: 'Roboto Mono', monospace;
+    300 / 400 / 700
+    font-family: 'Rubik', sans-serif;
+    400 / 700 / 900 */
     $font-primary: 'Roboto Mono', monospace;
-    $font-secondary: 'Oswald', sans-serif;
+    $font-secondary: 'Rubik', sans-serif;
 
     $font-headers: $font-secondary;
     
@@ -39,3 +61,9 @@
 
     //tamaño de fuente sin contar encabezados 3: pequeña(disclaimer etc) regular y grande para destacar algo
     //los encabezados son tamaños de encabezado no de fuentes
+
+
+    /* Decoration */
+    /* Border Styles */
+    $border-style: 3px solid $color-black;
+    $border: $border-style;

@@ -1,10 +1,40 @@
 @import '/src/scss/variables';
 
 body {
-    background-color: $color-green-dark;
+    background-color: $color-gray;
 }
- 
+.styleguide {
+    margin-left: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
 
+}
+.sg-nav {
+    background-color: red;
+    width: 5rem;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin: 0;
+
+    &__item {
+        list-style-type: none;
+    }
+
+    &__link {
+        text-decoration: none;
+    }
+}
 
 .line-divider {
     background: #bfbfbf;
