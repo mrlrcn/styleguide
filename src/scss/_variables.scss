@@ -1,4 +1,4 @@
-/* Color variables */
+/* COLOR variables */
     /* Accent colors */
     $color-red: #FF0000;
     $color-green: #00FF00;
@@ -13,21 +13,41 @@
     $color-gray-dark: #4E4E4E;
     $color-black: #1D1D1D;
 
-/* Colors map */
+/* Color variables for BACKGROUND COLOR */
+    /* Colors */
+    $background-color-green-dark: #017f7e;
+    $background-color-blue-dark: #000080;
+    /* Grayscale */
+    $background-color-white: #E7E7E7;
+    $background-color-gray: #C0C0C0;
+    $background-color-gray-dark: #4E4E4E;
+    $background-color-black: #1D1D1D;
+
+/* ALL colors map */
     $color-palette: (
-        "color-red": #FF0000,
-        "color-green": #00FF00,
-        "color-blue": #0000FF,
-        "color-yellow": #FFFF00,
+        "red": $color-red,
+        "green": $color-green,
+        "blue": $color-blue,
+        "yellow": $color-yellow,
 
-        "color-green-dark": #017f7e,
-        "color-blue-dark": #000080,
+        "green-dark": $color-green-dark,
+        "blue-dark": $color-blue-dark,
 
-        "color-white": #E7E7E7,
-        "color-gray": #C0C0C0,
-        "color-gray-dark": #4E4E4E,
-        "color-black": #1D1D1D
+        "white": $color-white,
+        "gray": $color-gray,
+        "gray-dark": $color-gray-dark,
+        "black": $color-black
     );
+
+    @each $color, $i in $color-palette {
+        .color-#{$color} {
+            color: $i;
+        }
+
+        .color-bg-#{$color} {
+            color: $i;
+        }
+    }
 
 /* Typography variables */
 
