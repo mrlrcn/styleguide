@@ -1,5 +1,6 @@
-import HighlightedText from "../components/AboutMe/HighlightedText"
+import Container from "../components/AboutMe/Container"
 import ProjectsList from "../components/projects/Projects"
+import DraggableComponent from "../components/DraggableComponent/DraggableComponent"
 export default function Home() {
 
     return (
@@ -19,10 +20,10 @@ export default function Home() {
                 name='Project 3'
             />
 
+            <Container/>
 
-            <HighlightedText 
-                text='HighlightedText component'
-            />
+            <DraggableComponent
+            className='draggable-component' /> { /* no se ve pero no da error??*/ }
         </>
     )
 }

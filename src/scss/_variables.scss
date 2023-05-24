@@ -46,11 +46,26 @@
     $font-secondary: 'Rubik', sans-serif;
 
     $font-headers: $font-secondary;
+
+    // $size-vars: (
+	// 'small': 0.75, // 12px o 0.875 14px
+	// 'medium': 1, // 16px
+	// 'x-normal': 1.12, // 18px
+	// 'big': 1.3, // 21px
+	// 'x-big': 1.8, // 29px
+	// 'xx-big': 2.4, // 32px
+	// 'xxx-huge': 3.75, // 60px
+    // 'huge': 6, // 96px
+    // );
     
-    // /* Font sizes */
-    // $font-size-big: 18px;
-    // $font-size-default: 16px;
-    // $font-size-small: 14px;
+    /* Font sizes */
+    $font-size-small: 12px;
+    $font-size-medium: 16px;
+    $font-size-big: 20px;
+    $font-size-big-x: 40px;
+    $font-size-big-xx: 60px;
+    $font-size-big-xxx: 96px;
+  
 
     // $font-size-h1: $font-size-h1;
     // $font-size-h2: $font-size-h2;

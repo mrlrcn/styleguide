@@ -1,6 +1,7 @@
 import './Styleguide.scss'
 import SgNav from './components/SgNav'
 import Buttons from '../components/buttons/Buttons'
+import IconChevronDown from './components/icons/IconChevronDown'
 
 export default function Styleguide() {
     return (
@@ -54,7 +55,12 @@ export default function Styleguide() {
                 </section>
             </article>
 
+            <IconChevronDown  size="small" className="green"/>
+            <IconChevronDown  size="big" />
+
         </div>
+
+        
         </>
     )
 }

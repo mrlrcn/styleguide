@@ -43,7 +43,7 @@ body {
     border-top: 1px solid #fff;
     border-left: 1px solid #fff;
     border-right: 1px solid #000;
-    border-bottom: 1px solid #000; /* hacer variable con w98 border style*/
+    border-bottom: 1px solid #000; /* hacer variable con w98 border style */
 }
 
 .styleguideSection {
@@ -133,4 +133,22 @@ body {
 }
 .colorb {
     background-color: $color-black; /* hacer un mixin desto */
+}
+
+//CLASE SVGS
+
+.svg {
+    &--small {
+        width: 32px;
+        height: 32px;
+    }
+
+    &--big {
+        width: 64px;
+        height: 64px;
+    }
+}
+
+.green {
+    color: $color-green;
 }

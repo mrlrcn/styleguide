@@ -1,30 +1,37 @@
-/*
-h1, .h1 {
-
-
-}
-*/
-h1, h2, h3, h4, h5, h6 {
-    font-family: $font-headers;
-}
-
-h2, .h2 {
-    font-family: $font-primary;
-    font-weight: 700;
-}
-
-h3, .h3 {
-    font-family: $font-primary;
-}
-
+/* HEADERS */
 
 h1, .h1 {
-    font-size: 2rem; //no tiene que haber numeros, todo variables
-    font-weight: 900;
-    line-height: 1.2;
+    margin: 0;
     font-family: $font-headers;
-    margin-bottom: 1.5;
-}
+    font-size: $font-size-big-xxx  }
+  
+  h2, .h2 {
+    margin: 0;
+    font-family: $font-primary;
+    font-size: $font-size-big-x }
+  
+  h3, .h3 {
+    margin: 0;
+    font-family: $font-primary;
+    font-size: $font-size-big-xx;
+  }
+  
+  h4, .h4 {
+    margin: 0;
+    font-family: $font-headers;
+    font-size: $font-size-big-x;
+  }
+  
+  h5, .h5 {
+    margin: 0;
+    font-family: $font-headers;
+    font-size: $font-size-medium  }
+  
+  h6, .h6 {
+    margin: 0;
+    font-family: $font-headers;
+    font-size: $font-size-medium  }
+
 
 // Mirar como hacer mixin + mediaqueries
 // fuente grande con sus mq, mediana con sus mq, pequeña con sus mq
@@ -34,6 +41,6 @@ h1, .h1 {
 //         font-size: $font-size * 1.2;
 //     }
 
-p {
-    font-family: $font-primary;
-}
+    p {
+        font-family: $font-primary;
+    }
