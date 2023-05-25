@@ -44,7 +44,7 @@ export default function Styleguide() {
                     <h4>Esto es un H4</h4>
                     <h5>Esto es un H5</h5>
                     <h6>Esto es un H6</h6>
-                    <p>Esto es un parrafo donde pone cosas y textos y negrita y esas cosas parrafo parrafo blabla bla.</p>
+                    <p>Esto es un parrafo donde pone cosas y textos y <span className="bold">negrita</span> y esas cosas parrafo parrafo blabla bla.</p>
                 </section>
             </article>
 

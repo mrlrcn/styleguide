@@ -3,34 +3,38 @@
 h1, .h1 {
     margin: 0;
     font-family: $font-headers;
-    font-size: $font-size-big-xxx  }
+    font-size: $font-size-96  
+  /* ¡¡Añadir mediaqueries!!
+    @include mq($) {
+      font-size $;
+    }*/}
   
   h2, .h2 {
     margin: 0;
     font-family: $font-primary;
-    font-size: $font-size-big-x }
+    font-size: $font-size-64 }
   
   h3, .h3 {
     margin: 0;
     font-family: $font-primary;
-    font-size: $font-size-big-xx;
+    font-size: $font-size-48;
   }
   
   h4, .h4 {
     margin: 0;
     font-family: $font-headers;
-    font-size: $font-size-big-x;
+    font-size: $font-size-36;
   }
   
   h5, .h5 {
     margin: 0;
     font-family: $font-headers;
-    font-size: $font-size-medium  }
+    font-size: $font-size-24  }
   
   h6, .h6 {
     margin: 0;
     font-family: $font-headers;
-    font-size: $font-size-medium  }
+    font-size: $font-size-20  }
 
 
 // Mirar como hacer mixin + mediaqueries
@@ -41,6 +45,13 @@ h1, .h1 {
 //         font-size: $font-size * 1.2;
 //     }
 
-    p {
-        font-family: $font-primary;
-    }
+/* PARAGRAPHS */
+
+p {
+        margin: 0;
+        font-size: $font-size-16;
+}
+
+.italic {
+  font-style: $font-style-italic;
+}
