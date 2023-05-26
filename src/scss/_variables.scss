@@ -102,8 +102,25 @@
         /* Font Styles */
         $font-style-italic: italic;
 
+/* MARGIN and PADDING */
+ /* mobile: 4px, 8px, 12px, 16px, 20px, 24px, 32px, 40px. en Desktop los * 2*/
+    $margins: (
+        "xxs": 0.4,
+        "xs": 0.8,
+        "s": 1.2,
+        "m": 1.6,
+        "l": 2,
+        "xl": 2.4,
+        "xxl": 3.2,
+        "xxxl": 4
+    );
+    /* Funcion personalizada que se aplica luego con padding/margin: spacing(xs); */
+    @function spacing($margin) {
+        @return map-get($margins, $margin) * 1rem; 
+    }
 
 /* Decoration */
         /* Border Styles */
         $border-style: 3px solid $color-black;
         $border: $border-style;
+

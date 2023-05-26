@@ -1,11 +1,12 @@
 import Container from "../components/AboutMe/Container"
 import ProjectsList from "../components/projects/Projects"
 import DraggableComponent from "../components/DraggableComponent/DraggableComponent"
+import Topbar from "../components/Topbar/Topbar"
 export default function Home() {
 
     return (
         <>
-            
+            <Topbar/>
             <p>Hola soy la Home</p>
 
             <ProjectsList
