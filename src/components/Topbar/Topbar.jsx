@@ -18,8 +18,7 @@ export default function Topbar() {
         <>
 
     <header>
-      <h1>Proyecto Gamma</h1>
-      <button onClick={changeClass}>🍔</button>
+      <button className='button__topbar' onClick={changeClass}>🍔</button>
     </header>
 
     { showNav === true
@@ -27,9 +26,7 @@ export default function Topbar() {
           
         <ul className="nav">
             <li className="nav__item">
-                <a href="#" className="nav__link">
-                    <Link onClick={closeMenu} to='../../views/Home'>Home</Link>
-                </a>
+                    <Link className="nav__link" onClick={closeMenu} to='../../views/Home'>Home</Link>  
             </li>
 
             <li className="nav__item">
@@ -37,9 +34,7 @@ export default function Topbar() {
             </li>
 
             <li className="nav__item">
-                <a href="#" className="nav__link">
-                    <Link onClick={closeMenu} to='../../views/Home'>WORK</Link>
-                </a>
+                    <Link className="nav__link" onClick={closeMenu} to='../../views/Home'>WORK</Link>
             </li>
             
             <li className="nav__item">

@@ -8,11 +8,11 @@ function App() {
 
   return (
     <>
-    <header>
+    {/* <header>
       <h1>Clase Wakkos</h1>
       <Link to="/">HOME</Link>
       <Link to="/styleguide">Link para Styleguide</Link>
-    </header>
+    </header> */}
 
         <Routes>
           <Route path="/styleguide" element={<Styleguide />} />
