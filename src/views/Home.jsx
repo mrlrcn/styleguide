@@ -1,13 +1,14 @@
 import Container from "../components/AboutMe/Container"
 import ProjectsList from "../components/projects/Projects"
-import DraggableComponent from "../components/DraggableComponent/DraggableComponent"
+
 import Topbar from "../components/Topbar/Topbar"
+import Hero from "../components/Hero/Hero"
 export default function Home() {
 
     return (
         <>
             <Topbar/>
-            <p>Hola soy la Home</p>
+            <Hero />
 
             <ProjectsList
                 name='Project 1'
@@ -22,9 +23,6 @@ export default function Home() {
             />
 
             <Container/>
-
-            <DraggableComponent
-            className='draggable-component' /> { /* no se ve pero no da error??*/ }
         </>
     )
 }
