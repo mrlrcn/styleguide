@@ -1,4 +1,12 @@
+@import '../../scss/variables';
 
+.section-hero {
+    width: 100vw;
+    height: 100vh;
+    background-color: $color-black;
+    color: white;
+
+}
 
 .blinkin-cursor {
     display: inline-block;
