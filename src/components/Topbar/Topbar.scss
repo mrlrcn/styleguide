@@ -1,4 +1,5 @@
 @import '../../scss/variables.scss';
+@import '../../scss/mixins.scss';
 
 .button__topbar {
     height: 50px;
@@ -9,7 +10,9 @@
     position: absolute;
     z-index: 11;
 
-
+    @include mq($bp-small) {
+        display: none;
+    }
 }
 .topar {
     z-index: 10;
