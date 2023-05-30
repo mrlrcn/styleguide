@@ -3,12 +3,14 @@ import ProjectsList from "../components/projects/Projects"
 
 import Topbar from "../components/Topbar/Topbar"
 import Hero from "../components/Hero/Hero"
+import Marquee from "../components/Marquee/Marquee"
 export default function Home() {
 
     return (
         <>
             <Topbar/>
             <Hero />
+            <Marquee />
 
             <ProjectsList
                 name='Project 1'
@@ -22,7 +24,8 @@ export default function Home() {
                 name='Project 3'
             />
 
-            <Container/>
+            {/* <Container/> */}
+
         </>
     )
 }

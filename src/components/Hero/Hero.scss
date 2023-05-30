@@ -1,11 +1,39 @@
 @import '../../scss/variables';
+@import '../../scss/mixins';
 
 .section-hero {
     width: 100vw;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: $color-black;
     color: white;
+    padding: spacing(xxl);
 
+    // &__content-wrapper {
+    //     display: flex;
+    //     align-content: center;
+    //     align-items: center;
+    //     height: 95%;
+    //     min-width: 95%;
+
+    //     padding: spacing(l);
+
+    //     @include mq($bp-desktop) {
+    //         border: 3px solid $color-green-dark;
+    //       }
+    // }
+
+    &__contact {  
+        display: flex;
+        justify-content: flex-end;
+        align-self: flex-end;
+        margin-top: spacing(xxxl);
+
+        text-decoration: none;
+        color: $color-white;
+    }
 }
 
 .blinkin-cursor {
