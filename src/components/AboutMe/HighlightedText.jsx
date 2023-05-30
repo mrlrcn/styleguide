@@ -13,11 +13,11 @@ import './HighlightedText.scss';
 //     )
 // }
 
-function HighlightedText (props) {
+function HighlightedText ({color = 'red', title}) {
     return (
         <>
         <h3>
-            <span className="highlight highlight-red">{props.text}</span>
+            <span className={`highlight highlight-${color}`}>{title}</span>
         </h3>
         </>
     );

@@ -34,7 +34,7 @@ export default function Topbar() {
             </li>
 
             <li className="nav__item">
-                    <Link className="nav__link" onClick={closeMenu} to='../../views/Home'>WORK</Link>
+                    <Link className="nav__link" onClick={closeMenu} to='../../views/Work'>WORK</Link>
             </li>
             
             <li className="nav__item">

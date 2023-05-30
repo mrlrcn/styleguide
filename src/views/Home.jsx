@@ -24,7 +24,10 @@ export default function Home() {
                 name='Project 3'
             />
 
-            {/* <Container/> */}
+            <Container color='red' title='Education' text='toxaco <b>aqui</b>'/>
+            <Container color='green' title='Tech Skills' text=''/>
+            <Container color='blue' title='Softwares'/>
+            <Container color='yellow' title='More stuff'/>
 
         </>
     )

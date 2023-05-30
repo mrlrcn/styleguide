@@ -1,13 +1,14 @@
 import HighlightedText from "./HighlightedText"
+import './AboutMe.scss'
 
-export default function Container() {
+export default function Container({color, title, text}) {
     return (
         <div className="aboutMe__container">
                 <HighlightedText 
-                text='HighlightedText component'
+                title={title}
+                color={color}
                 />
-                <p>lorem ipsum blabla</p>
-
+                <p text={text}>{text}</p>
 
         </div>
     )
