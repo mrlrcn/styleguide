@@ -17,9 +17,7 @@ import './AboutMe.scss'
 function HighlightedText ({color = 'red', title = 'HighlightedText Comp'}) {
     return (
         <>
-        <h3>
-            <span className={`highlight highlight-${color}`}>{title}</span>
-        </h3>
+            <span className={`highlight highlight-${color}`}>{title}</span>      
         </>
     );
 }

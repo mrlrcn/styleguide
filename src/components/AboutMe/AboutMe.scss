@@ -6,18 +6,23 @@
 // }
 
 .section-AboutMe {
+  align-content: center;
+  justify-content: center;
   &__content {
-    border: $border;
     // min-height: 500px;
-    margin: spacing(s);
+    margin: spacing(m);
 
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 
-    // @include mq($bp-tablet) {
-    //   font-size: $font-size-96;
-    // }
+    @include mq($bp-small-desktop) {
+      margin: spacing(xxxl);
+    }
+    @include mq($bp-desktop) {
+      margin: calc(spacing(xxxl) * 2);
+      min-height: 500px;
+    }
   }
 
   &__content-item {

@@ -24,7 +24,7 @@ export default function AboutMe() {
 
                 <div className="section-AboutMe__content-item">
                     <h3 className="section-AboutMe__content-item__title">
-                        <HighlightedText title="Technical Skills" color="green" />
+                        <HighlightedText title="Languages" color="green" />
                     </h3>
                     <p className="section-AboutMe__content-item__text">
                         I create appealing, performant websites that meet product needs and captivate clients. Simple, clean, useful, and accessible design is my focus. 
