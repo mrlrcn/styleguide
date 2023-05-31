@@ -1,4 +1,5 @@
 import './HighlightedText.scss';
+import './AboutMe.scss'
 
 // export default function HighlightedText() {
 //     return (
@@ -13,7 +14,7 @@ import './HighlightedText.scss';
 //     )
 // }
 
-function HighlightedText ({color = 'red', title}) {
+function HighlightedText ({color = 'red', title = 'HighlightedText Comp'}) {
     return (
         <>
         <h3>

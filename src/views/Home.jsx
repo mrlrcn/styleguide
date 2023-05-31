@@ -3,14 +3,15 @@ import ProjectsList from "../components/projects/Projects"
 
 import Topbar from "../components/Topbar/Topbar"
 import Hero from "../components/Hero/Hero"
-import Marquee from "../components/Marquee/Marquee"
+import AboutMe from "../components/AboutMe/AboutMe"
+import HighlightedText from "../components/AboutMe/HighlightedText"
 export default function Home() {
 
     return (
         <>
             <Topbar/>
             <Hero />
-            <Marquee />
+            <AboutMe />
 
             <ProjectsList
                 name='Project 1'
@@ -28,6 +29,7 @@ export default function Home() {
             <Container color='green' title='Tech Skills' text=''/>
             <Container color='blue' title='Softwares'/>
             <Container color='yellow' title='More stuff'/>
+            <HighlightedText color='green' title='hola' />
 
         </>
     )

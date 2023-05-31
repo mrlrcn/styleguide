@@ -1,5 +1,39 @@
 @import "../../scss/variables";
+@import "../../scss/mixins";
 
-.aboutMe__container {
-  border: $border;
+// .aboutMe__container {
+//   border: $border;
+// }
+
+.section-AboutMe {
+  &__content {
+    border: $border;
+    // min-height: 500px;
+    margin: spacing(s);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    // @include mq($bp-tablet) {
+    //   font-size: $font-size-96;
+    // }
+  }
+
+  &__content-item {
+    padding: spacing(m);
+    background-color: $color-gray;
+    border: $border;
+
+    z-index: -1; /* has so stay under the absolute highlight*/
+
+    &__title {
+      margin-bottom: spacing(s);
+    }
+
+    &__text {
+      align-self: center;
+      justify-self: center;
+    }
+  }
 }
