@@ -14,13 +14,25 @@
     display: none;
   }
 }
-.topar {
+.topbar {
+  display: none;
   z-index: 10;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+
+  @media screen and (min-width: 800px) {
+    display: flex;
+  }
+  &--expanded {
+    display: flex;
+  }
 }
 
 .nav {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
+  top: 0;
 
   margin: 0;
   padding: 0;
@@ -35,7 +47,11 @@
   text-align: center;
   background-color: $color-gray;
 
-  @include mq($bp-small-desktop) {
+  @media screen and (min-width: 800px) {
+    height: auto;
+    top: auto;
+    position: initial;
+    flex-direction: row;
   }
 
   &__item {
@@ -52,6 +68,10 @@
       color: $color-white;
       background-color: $color-blue-dark;
       transition: 500ms linear;
+    }
+
+    @include mq($bp-small-desktop) {
+      display: flex;
     }
   }
 
@@ -70,5 +90,36 @@
     &:hover {
       color: $color-white;
     }
+
+    @include mq($bp-small-desktop) {
+      text-transform: uppercase;
+    }
   }
 }
+
+/* adaptar esto bien en typography*/
+ul {
+  list-style-type: none;
+  display: flex;
+}
+// .desktop-topbar {
+//   display: none;
+//   @include mq($bp-small-desktop) {
+//     display: flex;
+//     justify-content: flex-end;
+//     align-items: center;
+//   }
+// }
+
+// .desktop-nav {
+//   align-content: space-around;
+//   gap: 20px;
+
+//   &__item {
+//     display: flex;
+//   }
+
+//   &__link {
+//     text-transform: uppercase;
+//   }
+// }
