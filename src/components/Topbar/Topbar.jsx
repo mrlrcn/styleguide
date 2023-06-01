@@ -18,12 +18,10 @@ export default function Topbar() {
         <>
 
         <header>
-          <button className='button__topbar' onClick={changeClass}>🍔</button>
-        </header>
 
-        {/* { showNav === true */}
-           <nav className={`topbar ${showNav ? 'topbar--expanded' : ''}`}>
-              
+          <button className='button__topbar' onClick={changeClass}>x</button>
+
+           <nav className={`topbar ${showNav ? 'topbar--expanded' : ''}`}>              
               <ul className="nav">
                   <li className="nav__item">
                           <Link className="nav__link" onClick={closeMenu} to='../../views/Home'>Home</Link>  
@@ -42,28 +40,8 @@ export default function Topbar() {
                   </li>
               </ul>
             </nav>
-          {/* :
-            <nav className='desktop-topbar'>          
-                <ul className="desktop-nav">
-                    <li className="desktop-nav__item">
-                            <Link className="desktop-nav__link" onClick={closeMenu} to='../../views/Home'>Home</Link>  
-                    </li>
 
-                    <li className="desktop-nav__item">
-                        <a href="#aboutme" className="desktop-nav__link">About</a>
-                    </li>
-
-                    <li className="desktop-nav__item">
-                            <Link className="desktop-nav__link" onClick={closeMenu} to='../../views/Work'>WORK</Link>
-                    </li>
-                    
-                    <li className="desktop-nav__item">
-                        <a href="#contact" className="desktop-nav__link">CONTACT</a>
-                    </li>
-                </ul>
-              </nav>       
-            } */}
-        
+        </header>     
         </>
     )
 }

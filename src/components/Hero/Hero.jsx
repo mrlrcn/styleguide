@@ -1,4 +1,6 @@
 import './Hero.scss';
+import '../../scss/_buttons.scss';
+import '../../scss/_variables.scss';
 
 export default function Hero() {
     return (
@@ -11,7 +13,7 @@ export default function Hero() {
 
                         <h2 className="section-hero__subtitle" >frontend developer && graphic designer</h2>
                     </div>
-                    <a href="" className="section-hero__contact">Get in touch!</a>
+                    <a href="" className="section-hero__contact link--underline">Get in touch!</a>
                 </div>
             </section>
             
