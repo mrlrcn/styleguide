@@ -25,3 +25,17 @@ body {
     color: $color-black;
   }
 }
+
+.section-padding {
+  padding: 0;
+
+  @include mq($bp-small) {
+    padding-left: spacing(m);
+    padding-right: spacing(m);
+  }
+
+  @include mq($bp-small-desktop) {
+    padding-left: spacing(xxxl);
+    padding-right: spacing(xxxl);
+  }
+}

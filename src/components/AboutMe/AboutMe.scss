@@ -10,19 +10,22 @@
   justify-content: center;
   &__content {
     // min-height: 500px;
-    margin: spacing(m);
+    // margin: spacing(m);
 
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
 
-    @include mq($bp-small-desktop) {
-      margin: spacing(xxxl);
+    @include mq($bp-small) {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
     }
-    @include mq($bp-desktop) {
-      margin: calc(spacing(xxxl) * 2);
-      min-height: 500px;
-    }
+
+    // @include mq($bp-small-desktop) {
+    //   margin: spacing(xxxl);
+    // }
+    // @include mq($bp-desktop) {
+    //   margin: calc(spacing(xxxl) * 2);
+    //   min-height: 500px;
+    // }
   }
 
   &__content-item {

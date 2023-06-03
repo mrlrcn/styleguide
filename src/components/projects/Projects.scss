@@ -1,15 +1,18 @@
-@import '../../scss/variables.scss';
+@import "../../scss/variables.scss";
 
 .projectListView {
-    box-sizing: border-box;
-    border: $border;
+  box-sizing: border-box;
+  border: $border;
+  height: spacing(xxxl);
+  display: flex;
+  align-items: center;
 
-    &:hover {
-        background-color: $color-blue-dark;
-        color: $color-white;
-    }
+  &:hover {
+    background-color: $color-blue-dark;
+    color: $color-white;
+  }
 
-    &__title {
-        display: flex;
-    }
+  &__title {
+    display: flex;
+  }
 }

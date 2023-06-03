@@ -13,7 +13,7 @@ export default function Hero() {
 
                         <h2 className="section-hero__subtitle" >frontend developer && graphic designer</h2>
                     </div>
-                    <a href="" className="section-hero__contact link--underline">Get in touch!</a>
+                    <a href="" className="section-hero__contact underline-btn ">Get in touch!</a>
                 </div>
             </section>
             
