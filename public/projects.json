@@ -1,6 +1,7 @@
 [
     {
         "id": "Trve Faith Clothing",
+        "bartitle": "2023-trvefaithclothing-project.wp",
         "title": "Trve Faith Clothing",
         "image": "./default-img.png",
         "date": "2023",
@@ -30,10 +31,12 @@
                 "name": "React",
                 "icon": "IconReact"
             }
-        ]
+        ],
+        "projectUrl": "/project/trvefa"
     },
     {
         "id": "Otro proyecto random",
+        "bartitle": "2023-trvefaithclothing-project.wp",
         "title": "Otro proyecto random",
         "image": "./default-img.png",
         "date": "2023",
@@ -63,6 +66,7 @@
                 "name": "React",
                 "icon": "IconReact"
             }
-        ]
+        ],
+        "projectUrl": "/project/random"
     }
 ]

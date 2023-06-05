@@ -7,12 +7,11 @@ export default function Projects() {
     //hacer aquí un fetch para los proyectos
     const [jsonData, setJsonData] = useState([]);
 
-    useEffect(() => { //nos permite hacer la petición HTTP
+    useEffect(() => { 
       fetch('../../projects.json')
-      //usamons then() para encadenar acciones a una promesa resuelta exitosamente
-        .then(response => response.json()) //para obtener los datos en formato json
+        .then(response => response.json())
         .then(data => {
-          setJsonData(data); //los datos se pasan a la función data y se establecen en el estado jsonData
+          setJsonData(data);
         })
         .catch(error => {
           console.log(error);
@@ -27,9 +26,11 @@ export default function Projects() {
         {jsonData.map(item => (
             <ImageCard
                 key={item.id}
+                bartitle={item.bartitle}
                 image={item.image}
                 alt={item.title}
                 title={item.title}
+                description={item.description}
             />
             ))}
 
