@@ -1,6 +1,8 @@
 import './scss/global.scss'
 import { Link, Route, Routes } from 'react-router-dom'
 import Home from './views/Home'
+import Projects from './views/Projects'
+import Error404 from './views/Error404'
 import Styleguide from './styleguide/Styleguide'
 
 function App() {
@@ -16,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/styleguide" element={<Styleguide />} />
           <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
     </>
   )

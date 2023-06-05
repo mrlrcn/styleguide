@@ -24,19 +24,19 @@ export default function Topbar() {
            <nav className={`topbar ${showNav ? 'topbar--expanded' : ''}`}>              
               <ul className="nav">
                   <li className="nav__item">
-                          <Link className="nav__link" onClick={closeMenu} to='../../views/Home'>Home</Link>  
+                          <Link className="nav__link" onClick={closeMenu} to='/'>Home</Link>  
                   </li>
 
                   <li className="nav__item">
-                      <a href="#aboutme" className="nav__link">About</a>
+                      <a className="nav__link" onClick={closeMenu} href="#aboutme">About</a>
                   </li>
 
                   <li className="nav__item">
-                          <Link className="nav__link" onClick={closeMenu} to='../../views/Work'>WORK</Link>
+                          <Link className="nav__link" onClick={closeMenu} to='/projects'>Projects</Link>
                   </li>
                   
                   <li className="nav__item">
-                      <a href="#contact" className="nav__link">CONTACT</a>
+                      <a className="nav__link" onClick={closeMenu} href="#contact">CONTACT</a>
                   </li>
               </ul>
             </nav>
