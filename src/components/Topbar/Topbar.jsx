@@ -40,7 +40,7 @@ export default function Topbar() {
                   </li>
 
                   <li className="nav__item">
-                          <Link className="nav__link" onClick={closeMenu} to='/#contact'>Contact2</Link>
+                          <Link className="nav__link" onClick={closeMenu} to='/./#contact'>Contact2</Link>
                   </li>
               </ul>
             </nav>

@@ -1,4 +1,3 @@
-import Marquee from '../Marquee/Marquee'
 import Container from './Container'
 import HighlightedText from './HighlightedText'
 
