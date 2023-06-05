@@ -43,17 +43,8 @@ export default function Home() {
 
             <section className="section__contact" id="contact">
                 <Contact />
-            </section>
-            
+            </section>     
            
-
-            
-
-            <Container color='red' title='Education' text='toxaco <b>aqui</b>'/>
-            <Container color='green' title='Tech Skills' text=''/>
-            <Container color='blue' title='Softwares'/>
-            <Container color='yellow' title='More stuff'/>
-            <HighlightedText color='green' title='hola' />
 
             
 

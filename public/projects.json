@@ -1,0 +1,68 @@
+[
+    {
+        "id": "Trve Faith Clothing",
+        "title": "Trve Faith Clothing",
+        "image": "./default-img.png",
+        "date": "2023",
+        "description": "Lorem impsum blablabliblu",
+        "tools": [
+            {
+                "name": "HTML",
+                "icon": "IconHtml"
+            },
+            {
+                "name": "CSS",
+                "icon": "IconCss"
+            },
+            {
+                "name": "Sass",
+                "icon": "IconSass"
+            },
+            {
+                "name": "Javascript",
+                "icon": "IconJavascript"
+            },
+            {
+                "name": "Wordpress",
+                "icon": "IconWordpress"
+            },
+            {
+                "name": "React",
+                "icon": "IconReact"
+            }
+        ]
+    },
+    {
+        "id": "Otro proyecto random",
+        "title": "Otro proyecto random",
+        "image": "./default-img.png",
+        "date": "2023",
+        "description": "Lorem impsum de otro proyecto",
+        "tools": [
+            {
+                "name": "HTML",
+                "icon": "IconHtml"
+            },
+            {
+                "name": "CSS",
+                "icon": "IconCss"
+            },
+            {
+                "name": "Sass",
+                "icon": "IconSass"
+            },
+            {
+                "name": "Javascript",
+                "icon": "IconJavascript"
+            },
+            {
+                "name": "Wordpress",
+                "icon": "IconWordpress"
+            },
+            {
+                "name": "React",
+                "icon": "IconReact"
+            }
+        ]
+    }
+]
