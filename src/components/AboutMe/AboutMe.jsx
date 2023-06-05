@@ -5,10 +5,8 @@ import HighlightedText from './HighlightedText'
 export default function AboutMe() {
     return (
         <>
-        <Marquee />
-        <section className="section-AboutMe section-padding">
-    
-            
+
+        <section className="section-AboutMe">   
 
             <div className="section-AboutMe__content">
 

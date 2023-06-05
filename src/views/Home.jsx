@@ -1,43 +1,46 @@
 import Container from "../components/AboutMe/Container"
-import ProjectsList from "../components/projects/Projects"
+import ListView from "../components/ListView/ListView"
 
 import Topbar from "../components/Topbar/Topbar"
 import Hero from "../components/Hero/Hero"
 import AboutMe from "../components/AboutMe/AboutMe"
 import HighlightedText from "../components/AboutMe/HighlightedText"
 import Contact from "../components/Contact/Contact"
+import Marquee from "../components/Marquee/Marquee"
 export default function Home() {
 
     return (
         <>
-            <header>
+            <header className="section__header">
                 <Topbar/>
             </header>
             
 
-            <section>
+            <section className="section__hero">
                 <Hero />
             </section>
 
-            <section>
+            <Marquee />
+            
+            <section className="section__aboutme section-padding" id="aboutme">
                 <AboutMe />
             </section> 
 
-            <section>
-                <ProjectsList
+            <section className="section__featuredprojects section-padding"id="featuredprojects">
+                <ListView
                     name='Project 1'
                 /> 
 
-                <ProjectsList
+                <ListView
                     name='Project 2'
                 />
 
-                <ProjectsList
+                <ListView
                     name='Project 3'
                 />
             </section>
 
-            <section>
+            <section className="section__contact" id="contact">
                 <Contact />
             </section>
             

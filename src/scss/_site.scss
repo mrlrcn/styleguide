@@ -39,3 +39,17 @@ body {
     padding-right: spacing(xxxl);
   }
 }
+
+.section {
+  &__aboutme {
+    margin-bottom: spacing(xxxl);
+  }
+
+  &__featuredprojects {
+    margin-bottom: spacing(xxxl);
+  }
+
+  &__contact {
+    background-color: $color-black;
+  }
+}
