@@ -1,5 +1,5 @@
 import { Link, Route, Routes } from 'react-router-dom'
-import Home from '../../views/Home'
+import Home from '../../views/Home/Home'
 
 export default function SgNav() {
     return (

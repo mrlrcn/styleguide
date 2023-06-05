@@ -1,6 +1,6 @@
 import { Link, Route, Routes, useLocation } from 'react-router-dom'
 import './Topbar.scss';
-import Home from '../../views/Home'
+import Home from '../../views/Home/Home'
 import { useEffect, useState } from 'react'
 export default function Topbar() {
     
@@ -36,7 +36,11 @@ export default function Topbar() {
                   </li>
                   
                   <li className="nav__item">
-                      <a className="nav__link" onClick={closeMenu} href="#contact">CONTACT</a>
+                      <a className="nav__link" onClick={closeMenu} href="#contact">Contact</a>
+                  </li>
+
+                  <li className="nav__item">
+                          <Link className="nav__link" onClick={closeMenu} to='/#contact'>Contact2</Link>
                   </li>
               </ul>
             </nav>

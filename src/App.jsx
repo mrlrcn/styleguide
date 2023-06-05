@@ -1,8 +1,7 @@
 import './scss/global.scss'
 import { Link, Route, Routes } from 'react-router-dom'
-import Home from './views/Home'
-import Projects from './views/Projects'
-import Error404 from './views/Error404'
+import Home from './views/Home/Home'
+import Projects from './views/Projects/Projects'
 import Styleguide from './styleguide/Styleguide'
 
 function App() {
