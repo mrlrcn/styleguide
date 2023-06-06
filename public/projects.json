@@ -1,72 +1,136 @@
 [
     {
-        "id": "Trve Faith Clothing",
-        "bartitle": "2023-trvefaithclothing-project.wp",
+        "id": "tf",
         "title": "Trve Faith Clothing",
+        "bartitle": "2023-trvefaithclothing-project.wp",
         "image": "/default-img.png",
-        "date": "2023",
+        "year": "2023",
+        "role": "Project creator, web designer and developer.",
+        "tagline": "Branding, web design, and web development of an e-commerce platform for a clothing brand.",
+        "tools": ["Wordpress", "PHP", "CSS", "JavaScript", "HTML", "Figma"],
         "description": "Lorem impsum blablabliblu",
-        "tools": [
+        "projectUrl": "/project/trvefaith",
+        "links": [
             {
-                "name": "HTML",
-                "icon": "IconHtml"
+                "url": "url a github",
+                "name": "Github",
+                "icon": "github"
             },
             {
-                "name": "CSS",
-                "icon": "IconCss"
-            },
-            {
-                "name": "Sass",
-                "icon": "IconSass"
-            },
-            {
-                "name": "Javascript",
-                "icon": "IconJavascript"
-            },
-            {
-                "name": "Wordpress",
-                "icon": "IconWordpress"
-            },
-            {
-                "name": "React",
-                "icon": "IconReact"
+                "url": "url a la web",
+                "name": "",
+                "icon": ""
             }
-        ],
-        "projectUrl": "/project/trvefa"
+        ]
     },
     {
-        "id": "Otro proyecto random",
-        "bartitle": "2023-trvefaithclothing-project.wp",
-        "title": "Otro proyecto random",
+        "id": "about",
+        "title": "About",
+        "bartitle": "2023-aboutme-project.html",
         "image": "/default-img.png",
-        "date": "2023",
-        "description": "Lorem impsum de otro proyecto",
-        "tools": [
+        "year": "2023",
+        "role": "Web designer and developer.",
+        "tagline": "My very first website coded entirely on my own.",
+        "tools": ["HTML", "CSS", "Javascript", "Figma"],
+        "description": "This project was my first approach to HTML, CSS, and JavaScript. A simple one-page where I talk about myself and experiment with the broad possibilities of CSS. Feel free to visit it, hope you like it!",
+        "projectUrl": "/project/aboutme",
+        "links": [
             {
-                "name": "HTML",
-                "icon": "IconHtml"
+                "url": "url a github",
+                "name": "Github",
+                "icon": "github"
             },
             {
-                "name": "CSS",
-                "icon": "IconCss"
-            },
-            {
-                "name": "Sass",
-                "icon": "IconSass"
-            },
-            {
-                "name": "Javascript",
-                "icon": "IconJavascript"
-            },
-            {
-                "name": "Wordpress",
-                "icon": "IconWordpress"
-            },
-            {
-                "name": "React",
-                "icon": "IconReact"
+                "url": "url a la web",
+                "name": "",
+                "icon": ""
             }
-        ],
-        "projectUrl": "/project/random"
+        ]
+    },
+
+    {
+        "id": "killzeus",
+        "title": "KillZeus",
+        "bartitle": "2023-killzeus.html",
+        "image": "/default-img.png",
+        "year": "2023",
+        "role": "Web designer and developer.",
+        "tagline": "Landing page for a tarot card game designed by myself.",
+        "tools": ["HTML", "CSS", "React", "Figma"],
+        "description": "wip",
+        "projectUrl": "/project/killzeus",
+        "links": [
+            {
+                "url": "url a github",
+                "name": "Github",
+                "icon": "github"
+            },
+            {
+                "url": "url a la web",
+                "name": "",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "id": "beerpons",
+        "title": "Beer Pons",
+        "bartitle": "2023-beerpons.wp",
+        "image": "/default-img.png",
+        "year": "2023",
+        "role": "Web designer and developer.",
+        "tagline": "Branding, web design, and development for a brewery brand.",
+        "tools": ["HTML", "CSS", "React", "Figma"],
+        "description": "wip",
+        "projectUrl": "/project/beerpons",
+        "links": [
+            {
+                "url": "url a github",
+                "name": "Github",
+                "icon": "github"
+            },
+            {
+                "url": "url a la web",
+                "name": "",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "id": "asmodea",
+        "title": "Asmodea Gallery",
+        "bartitle": "2023-asmodeagallery.wp",
+        "image": "/default-img.png",
+        "year": "2023",
+        "role": "Branding, web designer and developer.",
+        "tagline": "A revisit of an old project I helped to develop.",
+        "tools": ["HTML", "CSS", "React", "Figma"],
+        "description": "wip",
+        "projectUrl": "/project/beerpons",
+        "links": [
+            {
+                "url": "url a github",
+                "name": "Github",
+                "icon": "github"
+            },
+            {
+                "url": "url a la web",
+                "name": "",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "id": "eve",
+        "title": "Eve and the four guardians",
+        "bartitle": "2020-videogame.uproject",
+        "image": "/default-img.png",
+        "year": "2020",
+        "role": "Concept & story design and development, 3D modeling and rendering, programming.",
+        "tagline": "Videogame beta project for a university class.",
+        "tools": ["Unreal Blueprint", "C++", "Unreal Engine", "ZBrush", "Photoshop"],
+        "description": "wip",
+        "projectUrl": "/project/eveandthefourguardians"
     }
+    
 ]
