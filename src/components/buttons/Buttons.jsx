@@ -1,16 +1,16 @@
 import './Buttons.scss';
 
-export default function Buttons() {
-    return (
-        <>
+export default function Buttons (props) {
+    if (props.asLink == 'true') {
+        return <a className={"link  link--" + props.classStyle} href={props.url} target={props.target ? props.target : "_self"}>
+        {props.text ? props.text : ' '}
+        {props.icon ? props.icon : ' '}
+    </a>
 
-        <button className="btn btn-primary">Button Primary</button>
-        <button className="btn btn-secondary">Button Secondary</button>
-        <button className="btn btn-cta">Button CTA</button>
-        <a href="" className="btn btn-primary">Link primary</a>
-        <a href="" className="btn btn-secondary">Link secondary</a>
-        <a href="" className="btn btn-cta">Link cta</a>
-        
-        </>
-    )
+    } else {
+        return <a className={"btn  btn--" + props.classStyle}  href={props.url} target={props.target ? props.target : "_self"}>
+                    {props.text ? props.text : ' '}
+                    {props.icon ? props.icon : ' '}
+                </a>
+    }
 }

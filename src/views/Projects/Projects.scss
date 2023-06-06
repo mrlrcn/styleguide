@@ -1,0 +1,13 @@
+@import "../../scss/variables";
+@import "../../scss/mixins";
+
+.section-projects {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  @include mq($bp-small-desktop) {
+    flex-direction: row;
+  }
+}

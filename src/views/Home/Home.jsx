@@ -7,6 +7,7 @@ import AboutMe from "../../components/AboutMe/AboutMe"
 import HighlightedText from "../../components/AboutMe/HighlightedText"
 import Contact from "../../components/Contact/Contact"
 import Marquee from "../../components/Marquee/Marquee"
+import Buttons from "../../components/buttons/Buttons"
 
 export default function Home() {
 
@@ -27,7 +28,7 @@ export default function Home() {
                 <AboutMe />
             </section> 
 
-            <section className="section__featuredprojects section-padding"id="featuredprojects">
+            <section className="section__featuredprojects section-padding" id="featuredprojects">
                 <ListView
                     name='Project 1'
                 /> 
@@ -41,11 +42,12 @@ export default function Home() {
                 />
             </section>
 
-            <section className="section__contact" id="contact">
+            {/* <section className="section__contact" id="contact">
                 <Contact />
-            </section>     
+            </section>      */}
            
-
+           <Buttons  asLink="true"  classStyle="primary" text="Ver código"  target="_blank" url=""></Buttons>
+           <Buttons  asLink="false"  classStyle="primary" text="Ver código"  target="_blank" url=""></Buttons>
             
 
         </>

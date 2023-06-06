@@ -3,8 +3,10 @@ import { Link, Route, Routes } from 'react-router-dom'
 import Home from './views/Home/Home'
 import Projects from './views/Projects/Projects'
 import Styleguide from './styleguide/Styleguide'
+import Project from './views/Project/Project'
 
 function App() {
+
 
   return (
     <>
@@ -18,6 +20,7 @@ function App() {
           <Route path="/styleguide" element={<Styleguide />} />
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/project/:projectID" element={<Project />} />
         </Routes>
     </>
   )

@@ -1,23 +1,136 @@
-@import '../../scss/variables';
+@import "../../scss/variables";
+@import "../../scss/mixins";
 
 .btn {
-    text-decoration: none;
-    cursor: pointer;
-    padding: 12px 24px;
-    background-color: $color-green;
-    border: 2px black solid;
-    margin: 0px;
-    font-size: 12px;
-    font-family: $font-primary;
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    &-primary {
-        background-color: $color-green;
+  text-decoration: none;
+  font-weight: $font-weight-bold;
+  text-transform: uppercase;
+
+  padding: $btn-padding;
+  color: $color-black;
+  //   border: $border-style;
+
+  &--primary {
+    background-color: $color-white;
+    border: $border-style;
+
+    &:hover {
+      transition: 0.5s;
+      background-color: transparent;
     }
-    &-secondary {
-        background-color: $color-gray;
+  }
+
+  &--secondary {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    border: $border-style;
+
+    &:after {
+      content: "🡥";
+      position: absolute;
+      opacity: 0;
+      top: 12px;
+      right: -10px;
+      transition: 0.5s;
     }
-    &-cta {
-        background-color: $color-red;
+    &:before {
+      transition: 0.5s;
     }
+
+    &:hover {
+      translate: -3px;
+    }
+
+    &:hover:after {
+      opacity: 1;
+      right: 5px;
+    }
+    &:hover:before {
+      opacity: 1;
+      right: 10px;
+    }
+  }
+}
+
+.link {
+  color: inherit;
+
+  &--underline {
+    float: right;
+    padding: 0.5em 0;
+    margin-top: 2rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    position: relative;
+    color: $color-green;
+    &:before,
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      height: 1px;
+      width: 0;
+    }
+    &:before {
+      transition: width 0s ease, background 0.4s ease;
+      left: 0;
+      right: 0;
+      bottom: 6px;
+    }
+    &:after {
+      right: 2.2%;
+      bottom: 6px;
+      background: $color-green;
+      transition: width 0.4s ease;
+    }
+
+    &:hover {
+      &:before {
+        width: 97.8%;
+        background: $color-green;
+        transition: width 0.4s ease;
+      }
+      &:after {
+        width: 97.8%;
+        background: 0 0;
+        transition: all 0s ease;
+      }
+    }
+  }
+
+  &--arrow {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+
+    &:after {
+      content: "🡥";
+      position: absolute;
+      opacity: 0;
+      top: 12px;
+      right: -10px;
+      transition: 0.5s;
+    }
+    &:before {
+      transition: 0.5s;
+    }
+
+    &:hover {
+      translate: -3px;
+    }
+
+    &:hover:after {
+      opacity: 1;
+      right: 5px;
+    }
+    &:hover:before {
+      opacity: 1;
+      right: 10px;
+    }
+  }
 }

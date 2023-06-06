@@ -5,11 +5,15 @@
   display: flex;
   flex-direction: column;
   border: $border-style;
+
+  @include mq($bp-tablet) {
+  }
+
   &__bar {
     width: 100%;
     height: 30px;
     text-align: center;
-    background-color: $color-gray-dark;
+    background-color: $color-white;
     border-bottom: $border-style;
     padding: 5px;
   }
@@ -18,13 +22,19 @@
     border-bottom: $border-style;
   }
 
-  &__title {
-  }
+  &__content {
+    padding: spacing(s);
+    &-title {
+      margin-bottom: spacing(xs);
+    }
 
-  &__description {
-  }
-  &__actions {
-    display: flex;
-    justify-content: space-around;
+    &-description {
+      margin-bottom: spacing(xs);
+    }
+
+    &-actions {
+      display: flex;
+      justify-content: space-around;
+    }
   }
 }

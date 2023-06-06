@@ -1,4 +1,5 @@
 import './ImageCard.scss'
+import Buttons from '../buttons/Buttons'
 
 export default function ImageCard(props) {
     return (
@@ -10,13 +11,19 @@ export default function ImageCard(props) {
 
                 <img className="imagecard__image" src={props.image} alt={props.alt} />
 
-                <h5 className="imagecard__title">{props.title}</h5>
-                <p className="imagecard__description">{props.description}</p>
-                
-                <div className="imagecard__actions">
-                <button>view project</button>
-                <a href="">Case study</a>
+                <div className="imagecard__content">
+
+                    <h5 className="imagecard__content-title">{props.title}</h5>
+
+                     <p className="imagecard__content-description">{props.description}</p>
+                                
+                    <div className="imagecard__content-actions">                
+                        <Buttons  asLink="false"  classStyle="primary" text="View Project"  target="_blank" url=""></Buttons>
+                        <Buttons  asLink="false"  classStyle="secondary" text="See case study"  target="_self" url=""></Buttons>
+                    </div>
+                    
                 </div>
+
                 
             </div>
 

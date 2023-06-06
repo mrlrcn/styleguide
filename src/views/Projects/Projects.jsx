@@ -1,6 +1,7 @@
 import Topbar from "../../components/Topbar/Topbar";
 import ImageCard from "../../components/ImageCard/ImageCard";
 import React, { useEffect, useState } from 'react';
+import './projects.scss';
 
 export default function Projects() {
 
@@ -22,6 +23,8 @@ export default function Projects() {
         <>
 
         <Topbar />
+        
+        <section className="section-projects section-padding" id="allprojects">
 
         {jsonData.map(item => (
             <ImageCard
@@ -33,6 +36,10 @@ export default function Projects() {
                 description={item.description}
             />
             ))}
+
+        </section>
+
+
 
         </>
     )
