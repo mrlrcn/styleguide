@@ -1,4 +1,4 @@
-import '/./projects.scss';
+import '../Projects/Projects.scss'
 import Topbar from "../../components/Topbar/Topbar";
 import ImageCard from "../../components/ImageCard/ImageCard";
 import React, { useEffect, useState } from 'react';
