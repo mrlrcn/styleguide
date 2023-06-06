@@ -9,7 +9,8 @@ export default function ImageCard(props) {
 
                 <p className="imagecard__bar">{props.bartitle}</p>
 
-                <img className="imagecard__image" src={props.image} alt={props.alt} />
+                <div className="imagecard__image" style={{background: `url(${props.image}) no-repeat`, backgroundSize: 'cover',}}></div>
+                
 
                 <div className="imagecard__content">
 

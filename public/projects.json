@@ -7,8 +7,8 @@
         "year": "2023",
         "role": "Project creator, web designer and developer.",
         "tagline": "Branding, web design, and web development of an e-commerce platform for a clothing brand.",
-        "tools": ["Wordpress", "PHP", "CSS", "JavaScript", "HTML", "Figma"],
-        "description": "Lorem impsum blablabliblu",
+        "tools": ["Wordpress", "Woocommerce", "PHP", "CSS", "JavaScript", "HTML", "Figma"],
+        "description": "Branding, web design and development of a Woocommerce for a clothing brand.",
         "projectUrl": "/project/trvefaith",
         "links": [
             {
@@ -52,7 +52,7 @@
         "id": "killzeus",
         "title": "KillZeus",
         "bartitle": "2023-killzeus.html",
-        "image": "/default-img.png",
+        "image": "/project-imgs/killzeus-preview.webp",
         "year": "2023",
         "role": "Web designer and developer.",
         "tagline": "Landing page for a tarot card game designed by myself.",
@@ -100,7 +100,7 @@
         "id": "asmodea",
         "title": "Asmodea Gallery",
         "bartitle": "2023-asmodeagallery.wp",
-        "image": "/default-img.png",
+        "image": "/project-imgs/asmodea-preview.webp",
         "year": "2023",
         "role": "Branding, web designer and developer.",
         "tagline": "A revisit of an old project I helped to develop.",

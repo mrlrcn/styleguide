@@ -8,6 +8,8 @@
   gap: 10px;
 
   @include mq($bp-small-desktop) {
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
 }
