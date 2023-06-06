@@ -1,7 +1,7 @@
 import Topbar from "../../components/Topbar/Topbar";
 import ImageCard from "../../components/ImageCard/ImageCard";
 import React, { useEffect, useState } from 'react';
-import './projects.scss';
+import '/projects.scss';
 
 export default function Projects() {
 

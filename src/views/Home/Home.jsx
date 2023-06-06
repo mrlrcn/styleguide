@@ -45,9 +45,6 @@ export default function Home() {
             {/* <section className="section__contact" id="contact">
                 <Contact />
             </section>      */}
-           
-           <Buttons  asLink="true"  classStyle="primary" text="Ver código"  target="_blank" url=""></Buttons>
-           <Buttons  asLink="false"  classStyle="primary" text="Ver código"  target="_blank" url=""></Buttons>
             
 
         </>

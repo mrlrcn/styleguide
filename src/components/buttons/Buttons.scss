@@ -20,7 +20,8 @@
 
     &:hover {
       transition: 0.5s;
-      background-color: transparent;
+      color: $color-white;
+      background-color: $color-black;
     }
   }
 
