@@ -36,7 +36,9 @@
     &-description {
       margin-bottom: spacing(xs);
     }
-
+    &-tools {
+      color: green;
+    }
     &-actions {
       display: flex;
       justify-content: space-around;

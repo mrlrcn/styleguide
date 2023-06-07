@@ -6,29 +6,37 @@ import Hero from "../../components/Hero/Hero"
 import AboutMe from "../../components/AboutMe/AboutMe"
 import HighlightedText from "../../components/AboutMe/HighlightedText"
 import Contact from "../../components/Contact/Contact"
+import Card from "../../components/Card/Card"
 import Marquee from "../../components/Marquee/Marquee"
 import Buttons from "../../components/buttons/Buttons"
+
+import { DndProvider } from 'react-dnd'
+import { HTML5Backend } from 'react-dnd-html5-backend'
+
+
 
 export default function Home() {
 
     return (
         <>
+           <DndProvider backend={HTML5Backend}>
             <header className="section__header">
                 <Topbar/>
             </header>
             
 
-            <section className="section__hero">
+            <section className=" section section__hero">
                 <Hero />
             </section>
 
             <Marquee />
             
-            <section className="section__aboutme section-padding" id="aboutme">
+            <section className="section section__aboutme section-padding" id="aboutme">
                 <AboutMe />
             </section> 
 
-            <section className="section__featuredprojects section-padding" id="featuredprojects">
+            <section className="section section__featuredprojects section-padding" id="featuredprojects">
+                <h5>Some of my work</h5>
                 <ListView
                     name='Project 1'
                 /> 
@@ -42,11 +50,17 @@ export default function Home() {
                 />
             </section>
 
-            {/* <section className="section__contact" id="contact">
+            {/* <section className="section__contact" id="container">
                 <Contact />
-            </section>      */}
-            
+            </section> */}
 
+            {/* <Draggable /> */}
+            <div style={{ position: 'relative'}}>
+                <Card color="red" x="10" title="hola que tal mar"><p>Hola que tal </p></Card>
+                <Card color="green" title="hola que tal mar"><p>Hola que tal </p></Card>
+                <Card color="blue" x="30" y="50" title="hola que tal mar"><p>Hola que tal </p></Card>
+            </div>
+            </DndProvider>
         </>
     )
 }

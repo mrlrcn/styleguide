@@ -10,6 +10,7 @@ function App() {
 
   return (
     <>
+ 
     {/* <header>
       <h1>Clase Wakkos</h1>
       <Link to="/">HOME</Link>
@@ -22,6 +23,8 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/project/:projectID" element={<Project />} />
         </Routes>
+
+
     </>
   )
 }
