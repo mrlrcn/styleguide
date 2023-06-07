@@ -8,10 +8,6 @@ import HighlightedText from "../../components/AboutMe/HighlightedText"
 import Contact from "../../components/Contact/Contact"
 import Card from "../../components/Card/Card"
 import Marquee from "../../components/Marquee/Marquee"
-import Buttons from "../../components/buttons/Buttons"
-
-import { DndProvider } from 'react-dnd'
-import { HTML5Backend } from 'react-dnd-html5-backend'
 
 
 
@@ -19,7 +15,7 @@ export default function Home() {
 
     return (
         <>
-           <DndProvider backend={HTML5Backend}>
+
             <header className="section__header">
                 <Topbar/>
             </header>
@@ -50,17 +46,11 @@ export default function Home() {
                 />
             </section>
 
-            {/* <section className="section__contact" id="container">
-                <Contact />
-            </section> */}
-
-            {/* <Draggable /> */}
             <div style={{ position: 'relative'}}>
                 <Card color="red" x="10" title="hola que tal mar"><p>Hola que tal </p></Card>
                 <Card color="green" title="hola que tal mar"><p>Hola que tal </p></Card>
                 <Card color="blue" x="30" y="50" title="hola que tal mar"><p>Hola que tal </p></Card>
             </div>
-            </DndProvider>
         </>
     )
 }
