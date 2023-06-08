@@ -45,7 +45,7 @@ $color-palette: (
   }
 
   .color-bg-#{$color} {
-    color: $i;
+    background-color: $i;
   }
 }
 

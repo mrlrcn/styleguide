@@ -1,0 +1,14 @@
+@import "../../scss/variables.scss";
+@import "../../scss/mixins.scss";
+
+.error-page {
+  padding: spacing(l);
+  display: flex;
+  flex-direction: column;
+  gap: spacing(l);
+
+  &__header {
+    text-align: center;
+    margin-bottom: spacing(xxl);
+  }
+}

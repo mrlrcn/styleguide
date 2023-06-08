@@ -4,6 +4,7 @@ import Home from './views/Home/Home'
 import Projects from './views/Projects/Projects'
 import Styleguide from './styleguide/Styleguide'
 import Project from './views/Project/Project'
+import Error404 from './views/404/Error404'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/project/:projectID" element={<Project />} />
+          <Route path="*" element={<Error404 />} />
         </Routes>
 
 

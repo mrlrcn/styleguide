@@ -75,6 +75,14 @@ p {
   letter-spacing: -1px;
 }
 
+.p-big {
+  font-size: $font-size-64;
+  font-family: $font-primary;
+  text-transform: uppercase;
+}
+.bold {
+  font-weight: $font-weight-bold;
+}
 .italic {
   font-style: $font-style-italic;
 }
