@@ -23,7 +23,7 @@ function App() {
           <Route path="/styleguide" element={<Styleguide />} />
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/project/:projectID" element={<Project />} />
+          <Route path="/projects/:id" element={<Project />} />
           <Route path="*" element={<Error404 />} />
         </Routes>
 

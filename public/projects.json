@@ -9,7 +9,7 @@
         "tagline": "Branding, web design, and web development of an e-commerce platform for a clothing brand.",
         "tools": ["Wordpress", "PHP", "CSS", "JavaScript", "HTML", "Figma"],
         "description": "Branding, web design and development of a Woocommerce for a clothing brand.",
-        "projectUrl": "/project/trvefaith",
+        "projectUrl": "/projects/trvefaith",
         "links": [
             {
                 "url": "url a github",
@@ -33,7 +33,7 @@
         "tagline": "My very first website coded entirely on my own.",
         "tools": ["HTML", "CSS", "Javascript", "Figma"],
         "description": "This project was my first approach to HTML, CSS, and JavaScript. A simple one-page where I talk about myself and experiment with the broad possibilities of CSS. Feel free to visit it, hope you like it!",
-        "projectUrl": "/project/aboutme",
+        "projectUrl": "/projects/aboutme",
         "links": [
             {
                 "url": "url a github",
@@ -58,7 +58,7 @@
         "tagline": "Landing page for a tarot card game designed by myself.",
         "tools": ["HTML", "CSS", "React", "Figma"],
         "description": "wip",
-        "projectUrl": "/project/killzeus",
+        "projectUrl": "/projects/killzeus",
         "links": [
             {
                 "url": "url a github",
@@ -82,7 +82,7 @@
         "tagline": "Branding, web design, and development for a brewery brand.",
         "tools": ["HTML", "CSS", "React", "Figma"],
         "description": "wip",
-        "projectUrl": "/project/beerpons",
+        "projectUrl": "/projects/beerpons",
         "links": [
             {
                 "url": "url a github",
@@ -106,7 +106,7 @@
         "tagline": "A revisit of an old project I helped to develop.",
         "tools": ["HTML", "CSS", "React", "Figma"],
         "description": "wip",
-        "projectUrl": "/project/beerpons",
+        "projectUrl": "/projects/beerpons",
         "links": [
             {
                 "url": "url a github",
@@ -130,7 +130,7 @@
         "tagline": "Videogame beta project for a university class.",
         "tools": ["Unreal Engine Blueprint", "C++", "ZBrush", "Photoshop"],
         "description": "wip",
-        "projectUrl": "/project/eveandthefourguardians"
+        "projectUrl": "/projecst/eve"
     }
     
 ]
