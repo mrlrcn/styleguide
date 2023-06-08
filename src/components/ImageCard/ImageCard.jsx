@@ -17,6 +17,7 @@ export default function ImageCard(props) {
                     <h5 className="imagecard__content-title">{props.title}</h5>
 
                      <p className="imagecard__content-description">{props.description}</p>
+                     <p className="imagecard__content-tools">{props.tools}</p>
                                 
                     <div className="imagecard__content-actions">                
                         <Buttons  asLink="false"  classStyle="primary" text="View Project"  target="_blank" url=""></Buttons>
