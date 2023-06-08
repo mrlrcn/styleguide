@@ -9,6 +9,10 @@ import Contact from "../../components/Contact/Contact"
 import Card from "../../components/Card/Card"
 import Marquee from "../../components/Marquee/Marquee"
 
+import AsciiCat from "../../components/AsciiIcons/AsciiCat"
+import AsciiMouse from "../../components/AsciiIcons/AsciiMouse"
+import AsciiTea from "../../components/AsciiIcons/AsciiTea"
+
 
 
 export default function Home() {
@@ -49,24 +53,23 @@ export default function Home() {
             <section className="section section__contact">
 
                 <div style={{ position: 'relative'}}>
-                    <Card color="blue"  title="https://twitter.com/mrlrcn"><p>TWITTER</p></Card>
+                    <Card color="blue"  title="https://twitter.com/mrlrcn">
+                        <p>TWITTER</p>
+                        <AsciiCat />
+                    </Card>
+
                     <Card color="green"  y="15" title="https://github.com/mrlrcn">
 
                     <p>GITHUB</p>
-                        <span className="contact-card__ascii">
-                            ─────▄▄────▄▀▀█▀▀▀▀▄
-                            ──▄▀▀──▀▀▄▄█▄▄█────█
-                            ▄▀─────────█──█────█
-                            ────────────▀▀▀▀▀▀▀
-                        </span>
+<AsciiMouse />
                     </Card>
 
                     <Card color="red" x="30" y="50" title="https://mrlrcn.com/#contact">
-
+                    <AsciiTea />
                         <p>You can <span><h5>contact me</h5></span> @</p>
 
                         <a className="contact-card__link" href="mailto:m.alarconarbona@gmail.com" target="_blank">m.alarconarbona@gmail.com</a>
-
+                        
                     </Card>
                 </div>
 
