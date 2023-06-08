@@ -1,0 +1,46 @@
+.bg-mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0.7) 100%
+  ); /* W3C */
+  mix-blend-mode: multiply;
+}
+
+/* overlay.css */
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Color de fondo semi-transparente */
+  z-index: 9999; /* Asegúrate de que el valor de z-index sea superior a otros elementos */
+  pointer-events: none; /* Para permitir la interacción con los elementos debajo del overlay */
+}
+
+.overlay::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://dsqqu7oxq6o1v.cloudfront.net/preview-239242-UT4wNbd3Lm-high.mp4"); /* Ruta a la imagen de textura */
+  opacity: 0.5; /* Opacidad de la textura */
+  pointer-events: none; /* Para permitir la interacción con los elementos debajo del overlay */
+  animation: texture-animation 5s infinite; /* Duración y repetición de la animación */
+}
+
+@keyframes texture-animation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}

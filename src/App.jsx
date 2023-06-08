@@ -5,13 +5,14 @@ import Projects from './views/Projects/Projects'
 import Styleguide from './styleguide/Styleguide'
 import Project from './views/Project/Project'
 import Error404 from './views/404/Error404'
+import NoisyOverlay from './components/NoisyOverlay/NoisyOverlay'
 
 function App() {
 
 
   return (
     <>
- 
+ <NoisyOverlay />
     {/* <header>
       <h1>Clase Wakkos</h1>
       <Link to="/">HOME</Link>

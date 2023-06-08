@@ -28,17 +28,40 @@
   }
 
   &__content {
-    padding: spacing(s);
-    &-title {
+    display: flex;
+    flex-direction: column;
+    padding: spacing(xxs);
+
+    &-top {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
       margin-bottom: spacing(xs);
+      &-title {
+        margin-right: spacing(s);
+      }
+
+      &-tools {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-self: flex-end;
+        justify-content: end;
+        text-align: end;
+
+        &__item {
+          margin: spacing(xxs);
+          font-weight: $font-weight-bold;
+          font-size: $font-size-14;
+          // text-decoration: underline; future update: projects divided by tools, clickables
+        }
+      }
     }
 
     &-description {
       margin-bottom: spacing(xs);
     }
-    &-tools {
-      color: green;
-    }
+
     &-actions {
       display: flex;
       justify-content: space-around;

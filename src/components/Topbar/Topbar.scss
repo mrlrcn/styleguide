@@ -14,16 +14,18 @@
     display: none;
   }
 }
+
 .topbar {
   display: none;
   z-index: 10;
   justify-content: flex-end;
   align-items: center;
 
-  @media screen and (min-width: 800px) {
+  &--expanded {
     display: flex;
   }
-  &--expanded {
+
+  @media screen and (min-width: 800px) {
     display: flex;
   }
 }

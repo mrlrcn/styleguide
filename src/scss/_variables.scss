@@ -125,3 +125,24 @@ $border-style: 3px solid $color-black;
 $border: $border-style;
 
 $btn-padding: 1rem 2rem;
+
+/* Z-INDEX */
+$z-index-bg: 1;
+$z-index-low: 10;
+$z-index-medium: 50;
+$z-index-high: 100;
+$z-index-top: 999;
+
+$layers: (
+  "z-index-bg": 1,
+  "z-index-low": 10,
+  "z-index-medium": 50,
+  "z-index-high": 100,
+  "z-index-top": 999,
+);
+
+@each $layer, $i in $layers {
+  .layer-#{$layer} {
+    z-index: $i;
+  }
+}
