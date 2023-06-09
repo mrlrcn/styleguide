@@ -20,11 +20,6 @@ export default function Home() {
     return (
         <>
 
-            <header className="section__header">
-                <Topbar/>
-            </header>
-            
-
             <section className=" section section__hero">
                 <Hero />
             </section>

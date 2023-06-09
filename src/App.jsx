@@ -6,18 +6,21 @@ import Styleguide from './styleguide/Styleguide'
 import Project from './views/Project/Project'
 import Error404 from './views/404/Error404'
 import NoisyOverlay from './components/NoisyOverlay/NoisyOverlay'
+import Headroom from 'react-headroom'
+import Topbar from './components/Topbar/Topbar'
 
 function App() {
 
 
   return (
     <>
- <NoisyOverlay />
-    {/* <header>
-      <h1>Clase Wakkos</h1>
-      <Link to="/">HOME</Link>
-      <Link to="/styleguide">Link para Styleguide</Link>
-    </header> */}
+    <NoisyOverlay />
+
+
+      <Topbar /> {/* Fix: mobile + delete extra topbar imports */}
+
+
+    {/* <Link to="/styleguide">Link para Styleguide</Link> */}
 
         <Routes>
           <Route path="/styleguide" element={<Styleguide />} />
