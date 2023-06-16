@@ -32,4 +32,4 @@ $ npm run build
 - Github: [@mrlrcn](https://github.com/mrlrcn)
 - LinkedIn: [@maralarcon](https://www.linkedin.com/in/maralarcon/)
 - Codepen: [@mrlrcn](https://codepen.io/mrlrcn)
-- Mail: mrlrcxn@gmail.com
+- Mail: mrlrcn.dev@gmail.com
