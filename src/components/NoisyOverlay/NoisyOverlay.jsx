@@ -1,6 +1,5 @@
 import './NoisyOverlay.scss'
 
 export default function NoisyOverlay() {
-    <div className="overlay"></div>
-
+    <div className="noise-overlay"></div>;
 }
