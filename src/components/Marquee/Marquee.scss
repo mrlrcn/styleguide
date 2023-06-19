@@ -11,7 +11,7 @@
   padding-bottom: 1rem;
 
   &:hover {
-    @include mq($bp-small-desktop) {
+    @include mq($bp-tablet) {
       -webkit-text-stroke: 2px $color-green-dark;
       -webkit-text-fill-color: transparent;
       color: transparent;
@@ -37,7 +37,7 @@
   letter-spacing: -5px;
   text-transform: uppercase;
 
-  @include mq($bp-small-desktop) {
+  @include mq($bp-tablet) {
     font-size: $font-size-64;
   }
 }

@@ -9,7 +9,6 @@ export default function Error404() {
     return (
         <>
 
-        <Topbar />
             <div className="error-page content-centered color-white color-bg-blue-dark">
                 <p className="error-page__header p-big color-blue-dark color-bg-white">ERROR 404 NOT FOUND</p>
                 <p>The page you were trying to view does not exist. There could be lots of reasons behind this</p>

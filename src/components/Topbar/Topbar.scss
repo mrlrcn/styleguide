@@ -10,7 +10,7 @@
   position: absolute;
   z-index: 11;
 
-  @include mq($bp-small-desktop) {
+  @include mq($bp-tablet) {
     display: none;
   }
 }
@@ -87,12 +87,12 @@
 
     color: $color-black;
 
-    &:hover {
-      color: $color-white;
-    }
-
     @include mq($bp-small-desktop) {
       text-transform: uppercase;
     }
   }
+}
+
+.nav__item:hover .nav__link {
+  color: $color-white;
 }

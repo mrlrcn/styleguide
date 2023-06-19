@@ -6,6 +6,7 @@
   height: spacing(xxxl);
   display: flex;
   align-items: center;
+  padding: spacing(s);
 
   &:hover {
     background-color: $color-blue-dark;

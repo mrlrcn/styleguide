@@ -8,7 +8,7 @@
         "role": "Project creator, web designer and developer.",
         "tagline": "Branding, web design, and web development of an e-commerce platform for a clothing brand.",
         "tools": ["Wordpress", "PHP", "CSS", "JavaScript", "HTML", "Figma"],
-        "description": "Branding, web design and development of a Woocommerce for a clothing brand.",
+        "description": "A creative project for an e-commerce platform for a clothing brand I helped to develop. Covering all product stages.",
         "projectUrl": "/projects/trvefaith",
         "links": [
             {
@@ -25,14 +25,14 @@
     },
     {
         "id": "about",
-        "title": "About",
+        "title": "About Me",
         "bartitle": "2023-aboutme-project.html",
         "image": "/project-imgs/preview-about.webp",
         "year": "2023",
         "role": "Web designer and developer.",
         "tagline": "My very first website coded entirely on my own.",
         "tools": ["HTML", "CSS", "Javascript", "Figma"],
-        "description": "This project was my first approach to HTML, CSS, and JavaScript. A simple one-page where I talk about myself and experiment with the broad possibilities of CSS. Feel free to visit it, hope you like it!",
+        "description": "My very first approach to HTML, CSS, and JavaScript. A simple one-page where I talk about myself and experiment with the broad possibilities of CSS.",
         "projectUrl": "/projects/aboutme",
         "links": [
             {
@@ -57,7 +57,7 @@
         "role": "Web designer and developer.",
         "tagline": "Landing page for a tarot card game designed by myself.",
         "tools": ["HTML", "CSS", "React", "Figma"],
-        "description": "wip",
+        "description": "Landing page promoting a tarot card game inspired by greek mythology designed by myself.",
         "projectUrl": "/projects/killzeus",
         "links": [
             {
@@ -72,54 +72,7 @@
             }
         ]
     },
-    {
-        "id": "beerpons",
-        "title": "Beer Pons",
-        "bartitle": "2023-beerpons.wp",
-        "image": "/project-imgs/preview-beerpons.webp",
-        "year": "2023",
-        "role": "Web designer and developer.",
-        "tagline": "Branding, web design, and development for a brewery brand.",
-        "tools": ["HTML", "CSS", "React", "Figma"],
-        "description": "wip",
-        "projectUrl": "/projects/beerpons",
-        "links": [
-            {
-                "url": "url a github",
-                "name": "Github",
-                "icon": "github"
-            },
-            {
-                "url": "url a la web",
-                "name": "",
-                "icon": ""
-            }
-        ]
-    },
-    {
-        "id": "asmodea",
-        "title": "Asmodea Gallery",
-        "bartitle": "2023-asmodeagallery.wp",
-        "image": "/project-imgs/preview-asmodea.webp",
-        "year": "2023",
-        "role": "Branding, web designer and developer.",
-        "tagline": "A revisit of an old project I helped to develop.",
-        "tools": ["HTML", "CSS", "React", "Figma"],
-        "description": "wip",
-        "projectUrl": "/projects/beerpons",
-        "links": [
-            {
-                "url": "url a github",
-                "name": "Github",
-                "icon": "github"
-            },
-            {
-                "url": "url a la web",
-                "name": "",
-                "icon": ""
-            }
-        ]
-    },
+    
     {
         "id": "eve",
         "title": "Eve and the four guardians",
@@ -129,7 +82,7 @@
         "role": "Concept & story design and development, 3D modeling and rendering, programming.",
         "tagline": "Videogame beta project for a university class.",
         "tools": ["Unreal Engine Blueprint", "C++", "ZBrush", "Photoshop"],
-        "description": "wip",
+        "description": "Videogame demo of an immersive journey about climate change where we were responsible of all stages of game development, from concept art to programming.",
         "projectUrl": "/projecst/eve"
     }
     

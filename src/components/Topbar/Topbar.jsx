@@ -31,21 +31,17 @@ export default function Topbar() {
 
                   {/* About section Link */}
                   <li className="nav__item">
-                    <a className="nav__link" onClick={closeMenu} href="#aboutme">About</a>
+                    <a className="nav__link" onClick={closeMenu} href="/#aboutme">About</a>
                   </li>
 
                   {/* All Projects View Link */}
                   <li className="nav__item">
-                    <Link className="nav__link" onClick={closeMenu} to='/projects'>Projects</Link>
+                    <Link className="nav__link" onClick={closeMenu} to='/projects'>Work</Link>
                   </li>
 
                   {/* Contact section link */}
                   <li className="nav__item">
-                      <a className="nav__link" onClick={closeMenu} href="#contact">Contact</a>
-                  </li>
-                  {/* JUST FOR TESTING DELETE LATER */}
-                  <li className="nav__item">
-                          <Link className="nav__link" onClick={closeMenu} to='/#contact'>Contact2</Link>
+                      <a className="nav__link" onClick={closeMenu} href="/#contact">Contact</a>
                   </li>
               </ul>
             </nav>

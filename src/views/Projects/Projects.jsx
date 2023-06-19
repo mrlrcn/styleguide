@@ -23,8 +23,6 @@ export default function Projects() {
     return (
         <>
 
-        <Topbar />
-        
         <section className="section-projects section-padding" id="allprojects">
 
         {jsonData.map(item => (

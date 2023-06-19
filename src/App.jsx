@@ -16,9 +16,7 @@ function App() {
     <>
     <NoisyOverlay />
 
-
       <Topbar /> {/* Fix: mobile + delete extra topbar imports */}
-
 
     {/* <Link to="/styleguide">Link para Styleguide</Link> */}
 
@@ -29,7 +27,6 @@ function App() {
           <Route path="/projects/:id" element={<Project />} />
           <Route path="*" element={<Error404 />} />
         </Routes>
-
 
     </>
   )
