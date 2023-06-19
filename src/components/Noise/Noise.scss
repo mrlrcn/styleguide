@@ -1,0 +1,52 @@
+@import "../../scss/variables";
+@import "../../scss/mixins";
+
+.noise-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+
+  pointer-events: none;
+
+  background-image: url("/public/imgs/noise.webp");
+  background-repeat: round;
+  background-size: 500px;
+
+  mix-blend-mode: multiply;
+  opacity: 0.2;
+
+  animation: noise-animation 1s infinite;
+}
+
+@keyframes noise-animation {
+  0% {
+    background-position: (random(1000) * 100%) (random(1000) * 100%);
+  }
+}
+
+// .noise-overlay {
+//   width: 100vw;
+//   height: 100vh;
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   z-index: 999;
+//   pointer-events: none;
+
+//   background-image: url("/public/imgs/noise.webp");
+//   background-repeat: round;
+//   background-size: 200px;
+
+//   mix-blend-mode: multiply;
+//   opacity: 1;
+
+//   animation: noise-animation 1s infinite;
+// }
+
+// @keyframes noise-animation {
+//   0% {
+//     background-position: (random(1000) * 100%) (random(1000) * 100%);
+//   }
+// }

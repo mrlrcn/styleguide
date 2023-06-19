@@ -5,9 +5,9 @@ import Projects from './views/Projects/Projects'
 import Styleguide from './styleguide/Styleguide'
 import Project from './views/Project/Project'
 import Error404 from './views/404/Error404'
-import NoisyOverlay from './components/NoisyOverlay/NoisyOverlay'
 import Headroom from 'react-headroom'
 import Topbar from './components/Topbar/Topbar'
+import Noise from './components/Noise/Noise'
 
 
 function App() {
@@ -15,7 +15,6 @@ function App() {
 
   return (
     <>
-      <NoisyOverlay />
       <Topbar /> {/* Fix: mobile + delete extra topbar imports */}
 
     {/* <Link to="/styleguide">Link para Styleguide</Link> */}
@@ -27,7 +26,8 @@ function App() {
           <Route path="/projects/:id" element={<Project />} />
           <Route path="*" element={<Error404 />} />
         </Routes>
-        
+
+        <Noise />
     </>
   )
 }
