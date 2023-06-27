@@ -29,7 +29,7 @@ $ npm run build
 ```
 
 ## Contact
-- Github: [@mrlrcn](https://github.com/mrlrcn)
+- Github: [@mrlrcxn](https://github.com/mrlrcxn)
 - LinkedIn: [@maralarcon](https://www.linkedin.com/in/maralarcon/)
-- Codepen: [@mrlrcn](https://codepen.io/mrlrcn)
-- Mail: mrlrcn.dev@gmail.com
+- Codepen: [@mrlrcxn](https://codepen.io/mrlrcxn)
+- Mail: mrlrcxn@gmail.com
